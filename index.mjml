@@ -1,0 +1,25 @@
+<mjml>
+    <mj-head>
+        <mj-style>
+            * {
+                box-sizing: border-box;
+            }
+            .debug {
+                border: 1px solid red;
+            }
+        </mj-style>
+        <mj-style inline="inline">
+            .font-styles {
+                font-family: sans-serif;
+            }
+            .underline {
+                text-decoration: underline;
+                font-weight: bold;
+            }
+        </mj-style>
+    </mj-head>
+    <mj-body background-color="#fff">
+        <mj-wrapper padding="0 0 50px">
+        </mj-wrapper>
+    </mj-body>
+</mjml>
