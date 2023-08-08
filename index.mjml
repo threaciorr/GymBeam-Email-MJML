@@ -4,22 +4,295 @@
             * {
                 box-sizing: border-box;
             }
-            .debug {
-                border: 1px solid red;
-            }
         </mj-style>
         <mj-style inline="inline">
-            .font-styles {
-                font-family: sans-serif;
-            }
-            .underline {
+            .links {
                 text-decoration: underline;
                 font-weight: bold;
+                color: #ff4300;
+            }
+            .links-black {
+                text-decoration: underline;
+                font-weight: bold;
+                color: #000;
             }
         </mj-style>
     </mj-head>
-    <mj-body background-color="#fff">
-        <mj-wrapper padding="0 0 50px">
+    <mj-body width="700px" background-color="#fff">
+        <mj-wrapper padding="20px 0" background-color="#fff">
+
+            <mj-raw>
+                <!--Start Header-->
+            </mj-raw>
+            <mj-section padding="0" background-color="#fff">
+                <mj-column>
+                    <mj-image target="_blank" href="https://gymbeam.pl/?utm_source=brevo&utm_campaign=PL-STATIC-B2C-07-08-2023-BEST-SALE&utm_medium=email" padding="0" width="200px" src="https://uploads-ssl.webflow.com/649202106a5e5cdd7aa72693/64d2446ab739413f6a12353d_Logo.png" alt="GymBeam__Logo" />
+                </mj-column>
+            </mj-section>
+            <mj-raw>
+                <!--End Header-->
+            </mj-raw>
+
+            <mj-raw>
+                <!--Start Nav-links-->
+            </mj-raw>
+            <mj-section padding="0" background-color="#fff">
+                <mj-column> 
+                    <mj-text align="center" color="#000" font-family="Arial, helvetica, snas-serif">                    
+                        <a target="_blank" href="https://r.newsletter.gymbeam.sk/mk/cl/f/sh/WCPzsg2230BbPRiOqPyVc3iBrV1hcKY5/ApTSzrFuVkFA" style="color: #000; font-weight: bold; font-size: 16px;">Suplementy i odżywki</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://gymbeam.pl/zdrowa-zywnosc?utm_source=brevo&utm_campaign=PL-STATIC-B2C-07-08-2023-BEST-SALE&utm_medium=email" style="color: #000; font-weight: bold; font-size: 16px;">Żywność dietetyczna</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://gymbeam.pl/odziez-fitness?utm_source=brevo&utm_campaign=PL-STATIC-B2C-07-08-2023-BEST-SALE&utm_medium=email" style="color: #000; font-weight: bold; font-size: 16px;">Odzież sportowa</a> 
+                    </mj-text>
+                </mj-column>
+            </mj-section>
+            <mj-raw>
+                <!--End Nav-links-->
+            </mj-raw>
+
+            <mj-raw>
+                <!--Start Banner1-->
+            </mj-raw>
+            <mj-section padding="0" background-color="#fff">
+                <mj-column> 
+                    <mj-image target="_blank" href="https://gymbeam.pl/wyprzedaz?utm_source=brevo&utm_campaign=PL-STATIC-B2C-07-08-2023-BEST-SALE&utm_medium=email" padding="0" src="https://uploads-ssl.webflow.com/649202106a5e5cdd7aa72693/64d24449a0dd76ba4f6782d5_-Banner1.png" alt="GymBeam__Sale" />
+                </mj-column>
+            </mj-section>
+            <mj-raw>
+                <!--End Banner1-->
+            </mj-raw>
+            
+            <mj-raw>
+                <!--Start Main-Text-->
+            </mj-raw>
+            <mj-section padding="0" background-color="#fff">
+                <mj-column> 
+                    <mj-text padding="15px 0 0" align="center" font-size="16px" font-family="Arial, helvetica, snas-serif">
+                        Cześć Filip,
+                    </mj-text>
+                </mj-column>
+            </mj-section>
+            <mj-section padding="0" background-color="#fff">
+                <mj-column> 
+                    <mj-text align="center" font-size="16px" line-height="1.5" font-family="Arial, helvetica, snas-serif">
+                        mamy dla Ciebie <a target="_blank" href="https://gymbeam.pl/wyprzedaz?utm_source=brevo&utm_campaign=PL-STATIC-B2C-07-08-2023-BEST-SALE&utm_medium=email" class="links">wspaniałe oferty,</a> które nie mogą pozostać niezauważone. Nie zapomnij o naszym naszym <a href="https://gymbeam.pl/bio-vegan-protein-vanavita.html?utm_source=brevo&utm_campaign=PL-STATIC-B2C-07-08-2023-BEST-SALE&utm_medium=email" class="links">wegańskim białku BIO</a>, które teraz dostępne jest ze wspaniałymi prezentami. A to nie wszystko - sprawdź inne <a href="https://gymbeam.pl/wyprzedaz?utm_source=brevo&utm_campaign=PL-STATIC-B2C-07-08-2023-BEST-SALE&utm_medium=email" class="links">oferty specjalne</a>, które dla Ciebie przygotowaliśmy i bądź jednym z pierwszych, którzy dowiadują się o naszych <a href="https://gymbeam.pl/nowosci?utm_source=brevo&utm_campaign=PL-STATIC-B2C-07-08-2023-BEST-SALE&utm_medium=email" class="links">nowych ofertach i produktach</a>.
+                    </mj-text>
+                </mj-column>
+            </mj-section>
+            <mj-raw>
+                <!--End Main-Text-->
+            </mj-raw>
+
+            <mj-raw>
+                <!--Start Products1-->
+            </mj-raw>
+            <mj-section padding="20px 0 20px" background-color="#fff">
+                <mj-column>
+                    <mj-image target="_blank" href="https://gymbeam.pl/pro-amino-390-g-gymbeam.html?utm_source=brevo&utm_campaign=PL-STATIC-B2C-07-08-2023-BEST-SALE&utm_medium=email" padding="0 15px" src="https://uploads-ssl.webflow.com/649202106a5e5cdd7aa72693/64d2444f83bbb2f7c2752ddd_-Banner2.jpg" alt="ProAmino+Prezent" />
+                </mj-column>
+                <mj-column>
+                    <mj-text align="center" font-size="20px" font-family="Arial, helvetica, snas-serif">
+                        <a target="_blank" href="https://gymbeam.pl/pro-amino-390-g-gymbeam.html?utm_source=brevo&utm_campaign=PL-STATIC-B2C-07-08-2023-BEST-SALE&utm_medium=email" class="links">ProAMINO + PREZENT</a>
+                    </mj-text>
+                    <mj-text padding="0" line-height="1.5" align="center" font-size="16px" font-family="Arial, helvetica, snas-serif">
+                        <a target="_blank" href="https://gymbeam.pl/butelka-sportowa-hydrator-tt-2-5-l-black-gymbeam.html?utm_source=brevo&utm_campaign=PL-STATIC-B2C-07-08-2023-BEST-SALE&utm_medium=email" style="color: #000; font-weight: bold;">Butelka sportowa Hydrator TT 2.5 l</a>
+                    </mj-text>
+                    <mj-text padding="20px 15px 15px" line-height="1.5" align="center" font-size="16px" font-family="Arial, helvetica, snas-serif">
+                        Unikatowy 9-aminokwasowy kompleks wzbogacony formułą GreenEnergy®, zawiera kofeinę, zieloną herbatę i wyciąg z zielonej kawy. Jedna dawka tej innowacyjnej mieszanki zawiera do 10.5 gramów białka, które przyczynia się do wzrostu mięśni i ich utrzymania.
+                    </mj-text>
+                    <mj-button target="_blank" href="https://gymbeam.pl/pro-amino-390-g-gymbeam.html?utm_source=brevo&utm_campaign=PL-STATIC-B2C-07-08-2023-BEST-SALE&utm_medium=email" background-color="#000" font-weight="bold" border-radius="0" font-size="22px" padding="0" font-family="Arial, helvetica, snas-serif">
+                        SPRAWDŹ
+                    </mj-button>
+                </mj-column>
+            </mj-section>
+            <mj-raw>
+                <!--End Products1-->
+            </mj-raw>
+
+            <mj-raw>
+                <!--Start Products2-->
+            </mj-raw>
+            <mj-section padding="0 0 20px" background-color="#fff">
+                <mj-column>
+                    <mj-image target="_blank" href="https://gymbeam.pl/bio-vegan-protein-vanavita.html?utm_source=brevo&utm_campaign=PL-STATIC-B2C-07-08-2023-BEST-SALE&utm_medium=email" padding="0 15px" src="https://uploads-ssl.webflow.com/649202106a5e5cdd7aa72693/64d244598718fb267075b70b_-Banner3.jpg" alt="BIO-Białko_wegańskie+Prezenty" />
+                </mj-column>
+                <mj-column>
+                    <mj-text padding="15px 20px 0" line-height="1.5" align="center" font-size="20px" font-family="Arial, helvetica, snas-serif">
+                        <a target="_blank" href="https://gymbeam.pl/bio-vegan-protein-vanavita.html?utm_source=brevo&utm_campaign=PL-STATIC-B2C-07-08-2023-BEST-SALE&utm_medium=email" class="links">BIO Białko wegańskie + PREZENTY</a>
+                    </mj-text>
+                    <mj-text padding="10px 0 0" line-height="1.5" align="center" font-size="16px" font-family="Arial, helvetica, snas-serif">
+                        <a target="_blank" href="https://gymbeam.pl/butelka-bambusowa-infuse-500-ml-vanavita.html?utm_source=brevo&utm_campaign=PL-STATIC-B2C-07-08-2023-BEST-SALE&utm_medium=email" style="color: #000; font-weight: bold;">Butelka bambusowa Infuse</a> + 2x <a target="_blank" href="https://gymbeam.pl/butelka-sportowa-hydrator-tt-2-5-l-black-gymbeam.html?utm_source=brevo&utm_campaign=PL-STATIC-B2C-07-08-2023-BEST-SALE&utm_medium=email" style="color: #000; font-weight: bold;">BIO Wegański baton proteinowy</a>
+                    </mj-text>
+                    <mj-text padding="20px 15px 15px" line-height="1.5" align="center" font-size="16px" font-family="Arial, helvetica, snas-serif">
+                        Mieszanka BIO roślinnych źródeł białka zawierająca niezbędne aminokwasy, w tym BCAA. Nie zawiera laktozy, emulgatorów i składników pochodzenia zwierzęcego.
+                    </mj-text>
+                    <mj-button target="_blank" href="https://gymbeam.pl/bio-vegan-protein-vanavita.html?utm_source=brevo&utm_campaign=PL-STATIC-B2C-07-08-2023-BEST-SALE&utm_medium=email" background-color="#000" font-weight="bold" border-radius="0" font-size="22px" padding="0" font-family="Arial, helvetica, snas-serif">
+                        SPRAWDŹ
+                    </mj-button>
+                </mj-column>
+            </mj-section>
+            <mj-raw>    
+                <!--End Products2-->
+            </mj-raw>
+
+            <mj-raw>    
+                <!--Start Products3-->
+            </mj-raw>
+            <mj-section padding="0" background-color="#fff">
+                <mj-column>
+                    <mj-image target="_blank" href="https://gymbeam.pl/napoj-alphamale-gymbeam.html?utm_source=brevo&utm_campaign=PL-STATIC-B2C-07-08-2023-BEST-SALE&utm_medium=email" padding="0 15px" src="https://uploads-ssl.webflow.com/649202106a5e5cdd7aa72693/64d244598718fb267075b70b_-Banner3.jpg" alt="Napoj_AlphaMale+Prezent" />
+                </mj-column>
+                <mj-column>
+                    <mj-text padding="35px 20px 0" align="center" font-size="20px" font-family="Arial, helvetica, snas-serif">
+                        <a target="_blank" href="https://gymbeam.pl/napoj-alphamale-gymbeam.html?utm_source=brevo&utm_campaign=PL-STATIC-B2C-07-08-2023-BEST-SALE&utm_medium=email" class="links">Napój AlphaMale + PREZENT</a>
+                    </mj-text>
+                    <mj-text padding="20px 0 0" line-height="1.5" align="center" font-size="16px" font-family="Arial, helvetica, snas-serif">
+                        <a target="_blank" href="https://gymbeam.pl/szejker-steel-750-ml-gymbeam.html?utm_source=brevo&utm_campaign=PL-STATIC-B2C-07-08-2023-BEST-SALE&utm_medium=email" style="color: #000; font-weight: bold;">Szejker</a>
+                    </mj-text>
+                    <mj-text padding="20px 15px 15px" line-height="1.5" align="center" font-size="16px" font-family="Arial, helvetica, snas-serif">
+                        Silny booster testosteronu w postaci łatwo rozpuszczalnego proszku. Wspiera optymalny poziom testosteronu we krwi, który jest kluczowy dla męskiego zdrowia.
+                    </mj-text>
+                    <mj-button target="_blank" href="https://gymbeam.pl/napoj-alphamale-gymbeam.html?utm_source=brevo&utm_campaign=PL-STATIC-B2C-07-08-2023-BEST-SALE&utm_medium=email" background-color="#000" font-weight="bold" border-radius="0" font-size="22px" padding="0" font-family="Arial, helvetica, snas-serif">
+                        SPRAWDŹ
+                    </mj-button>
+                </mj-column>
+            </mj-section>
+            <mj-raw>    
+                <!--End Products3-->
+            </mj-raw>
+
+            <mj-raw>    
+                <!--Start Button1-->
+            </mj-raw>
+            <mj-section padding="10px 0" background-color="#fff">
+                <mj-column>
+                    <mj-button border-radius="0" inner-padding="15px 20px" font-weight="bold" background-color="#ff4300" color="#fff" font-size="22px" target="_blank" href="https://gymbeam.pl/wyprzedaz?utm_source=brevo&utm_campaign=PL-STATIC-B2C-07-08-2023-BEST-SALE&utm_medium=email">
+                        CHCĘ ZOBACZYĆ WSZYSTKIE OFERTY SPECJALNE
+                    </mj-button>
+                </mj-column>
+            </mj-section>
+            <mj-raw>    
+                <!--End Button1-->
+            </mj-raw>
+
+            <mj-raw>    
+                <!--Start Man&Woamn-->
+            </mj-raw>
+            <mj-section padding="20px 0 0" background-color="#fff">
+                <mj-column>
+                    <mj-text font-weight="bold" padding="0" font-size="20px" align="center" font-family="Arial, helvetica, snas-serif">
+                        Stylowe nowości w Twojej garderobie
+                    </mj-text>
+                </mj-column>
+            </mj-section>
+            <mj-section padding="20px 0 0" background-color="#fff">
+                <mj-column>
+                    <mj-image target="_blank" href="https://gymbeam.pl/koszulka-stripes-black-gymbeam.html?utm_source=brevo&utm_campaign=PL-STATIC-B2C-07-08-2023-BEST-SALE&utm_medium=email" padding="0 20px" src="https://uploads-ssl.webflow.com/649202106a5e5cdd7aa72693/64d24465735b85658d109f08_man.png" alt="Koszulka__Stripes__Black" />
+                    <mj-text font-size="17px" align="center" font-family="Arial, helvetica, snas-serif">
+                        <a href="https://gymbeam.pl/koszulka-stripes-black-gymbeam.html?utm_source=brevo&utm_campaign=PL-STATIC-B2C-07-08-2023-BEST-SALE&utm_medium=email" class="links-black">Koszulka Stripes Black</a>
+                    </mj-text>
+                </mj-column>
+                <mj-column>
+                    <mj-image target="_blank" href="https://gymbeam.pl/damska-sukienka-t-shirt-alpha-black-strix.html?utm_source=brevo&utm_campaign=PL-STATIC-B2C-07-08-2023-BEST-SALE&utm_medium=email" padding="0 20px" src="https://uploads-ssl.webflow.com/649202106a5e5cdd7aa72693/64d244675487d69173c09dbf_woman.png" alt="Damska__Sukienka__T-shirt__Black" />
+                    <mj-text font-size="17px" align="center" font-family="Arial, helvetica, snas-serif">
+                        <a href="https://gymbeam.pl/damska-sukienka-t-shirt-alpha-black-strix.html?utm_source=brevo&utm_campaign=PL-STATIC-B2C-07-08-2023-BEST-SALE&utm_medium=email" class="links-black">Damska sukienka T-shirt Black</a>
+                    </mj-text>
+                </mj-column>
+            </mj-section>
+            <mj-raw>    
+                <!--End Man&Woamn-->
+            </mj-raw>
+
+            <mj-raw>    
+                <!--Start Button2-->
+            </mj-raw>
+            <mj-section padding="0 0 20px" background-color="#fff">
+                <mj-column>
+                    <mj-button border-radius="0" inner-padding="15px 20px" font-weight="bold" background-color="#ff4300" color="#fff" font-size="22px" target="_blank" href="https://gymbeam.pl/nowosci?utm_source=brevo&utm_campaign=PL-STATIC-B2C-07-08-2023-BEST-SALE&utm_medium=email">
+                        CHCĘ ZOBACZYĆ WSZYSTKIE NOWOŚCI
+                    </mj-button>
+                </mj-column>
+            </mj-section>
+            <mj-raw>    
+                <!--End Button2-->
+            </mj-raw>
+
+            <mj-raw>    
+                <!--Start Banner2-->
+            </mj-raw>
+            <mj-section padding="0" background-color="#fff">
+                <mj-column>
+                    <mj-image target="_blank" href="https://r.newsletter.gymbeam.sk/mk/cl/f/sh/28xHLVlYOhWMD1ocmRLBHSzgdE3gVgsr1F/YANBEWIGHuiV" padding="0" src="https://uploads-ssl.webflow.com/649202106a5e5cdd7aa72693/64d2445de85df45f1386a5f2_-Banner5.jpg" alt="Zniżka-20%" />
+                </mj-column>
+            </mj-section>
+            <mj-raw>    
+                <!--End Banner2-->
+            </mj-raw>
+
+            <mj-raw>    
+                <!--Start Banner3-->
+            </mj-raw>
+            <mj-section padding="0" background-color="#fff">
+                <mj-column>
+                    <mj-image target="_blank" href="https://gymbeam.pl/?utm_source=brevo&utm_campaign=PL-STATIC-B2C-07-08-2023-BEST-SALE&utm_medium=email" padding="0" src="https://uploads-ssl.webflow.com/649202106a5e5cdd7aa72693/64d244627cfe132d31dbbd70_-Banner6.png" alt="Ponad-6300-Produktów__Szybka-Dostawa__Darmowa-Dostawa" />
+                </mj-column>
+            </mj-section>
+            <mj-raw>    
+                <!--End Banner3-->
+            </mj-raw>
+
+            <mj-raw>    
+                <!--Start Socials-->
+            </mj-raw>
+            <mj-section background-color="#fff">
+                <mj-column>
+                    <mj-raw>
+                        <table padding="0" width="100%" style="margin: 0 auto; background: #fff;">
+                            <tr>
+                                <td>
+                                <table padding="0" style="margin: 0 auto; background: #fff; width: 100%; max-width: 250px;">
+                                    <tr>
+                                        <td>
+                                            <a href="https://www.facebook.com/GymBeamPL/?utm_source=brevo&utm_campaign=PL-STATIC-B2C-07-08-2023-BEST-SALE&utm_medium=email"><img width="32" src="https://uploads-ssl.webflow.com/649202106a5e5cdd7aa72693/64c23e6f737387d05f84bc99_Facebook.png" alt="facebook" /></a>
+                                        </td>
+                                        <td>
+                                            <a href="https://twitter.com/GymBeamTeam?utm_source=brevo&utm_campaign=PL-STATIC-B2C-07-08-2023-BEST-SALE&utm_medium=email"><img width="32" src="https://uploads-ssl.webflow.com/649202106a5e5cdd7aa72693/64c23e795b545656f2c72a26_Twitter.png" alt="twitter" /></a>
+                                        </td>
+                                        <td>
+                                            <a href="https://www.youtube.com/c/GymBeamPL"><img width="32" src="https://uploads-ssl.webflow.com/649202106a5e5cdd7aa72693/64c23e7c3e9978bb799c7ed6_Youtube.png" alt="youtube" /></a>
+                                        </td>
+                                        <td>
+                                            <a href="https://www.linkedin.com/company/gym-beam/?utm_source=brevo&utm_campaign=PL-STATIC-B2C-07-08-2023-BEST-SALE&utm_medium=email"><img width="32" src="https://uploads-ssl.webflow.com/649202106a5e5cdd7aa72693/64c23e763e9978bb799c7352_LinkedIn.png" alt="linkedin" /></a>
+                                        </td>
+                                        <td>
+                                            <a href="https://www.instagram.com/gymbeampl/?utm_source=brevo&utm_campaign=PL-STATIC-B2C-07-08-2023-BEST-SALE&utm_medium=email"><img width="32" src="https://uploads-ssl.webflow.com/649202106a5e5cdd7aa72693/64c23e7495baeb2d3c3ba40e_Instagram.png" alt="instagram" /></a>
+                                        </td>
+                                        <td>
+                                            <a href="https://www.tiktok.com/@gymbeam.pl/?utm_source=brevo&utm_campaign=PL-STATIC-B2C-07-08-2023-BEST-SALE&utm_medium=email"><img width="32" src="https://uploads-ssl.webflow.com/649202106a5e5cdd7aa72693/64c23e77baea6378ed69e059_Tiktok.png" alt="tiktok" /></a>
+                                        </td>
+                                    </tr>
+                                </table>
+                                </td>
+                            </tr>
+                        </table>
+                    </mj-raw>
+                </mj-column>
+            </mj-section>
+            <mj-raw>    
+                <!--End Socials-->
+            </mj-raw>
+
+            <mj-raw>    
+                <!--Start Unsubscribe-->
+            </mj-raw>
+            <mj-section padding="0" background-color="#fff">
+                <mj-column>
+                    <mj-text padding="10px 0 20px" font-size="10px" align="center" font-family="Arial, helvetica, snas-serif">
+                        Jeśli nie chcesz już otrzymywać informacji o rabatach, nowościach i promocjach, <a href="https://r.newsletter.gymbeam.sk/mk/un/v2/sh/28xHLVnJyVB9feTEN2LdoE3Qx07dPM5gXp/GgIDy51i0gup" class="links-black">wypisz się tutaj</a>.
+                    </mj-text>
+                </mj-column>
+            </mj-section>
+            <mj-raw>    
+                <!--End Unsubscribe-->
+            </mj-raw>
+
         </mj-wrapper>
     </mj-body>
 </mjml>
